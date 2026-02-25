@@ -1,0 +1,10 @@
+{
+  "feature_columns": ["city", "neighborhood", "rooms", "size_m2", "floor", "condition", "year_built", "parking", "elevator"],
+  "column_types": {
+    "city": "categorical",
+    "neighborhood": "categorical",
+    "condition": "categorical",
+    "parking": "binary",
+    "elevator": "binary"
+  }
+}

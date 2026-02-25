@@ -1,0 +1,22 @@
+{
+    "features": [
+        "city",
+        "neighborhood",
+        "rooms",
+        "size_m2",
+        "floor",
+        "condition",
+        "year_built",
+        "parking",
+        "elevator"
+    ],
+    "categorical_cols": [
+        "city",
+        "neighborhood",
+        "condition",
+        "parking",
+        "elevator"
+    ],
+    "model_type": "linear",
+    "model_path": "models\\linear_model.pkl"
+}
